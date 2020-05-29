@@ -18257,7 +18257,9 @@ var LoadersAndAnimations = function LoadersAndAnimations() {
   linkActiveClass: 'font-bold',
   routes: [{
     path: '*',
-    component: _components_NotFound__WEBPACK_IMPORTED_MODULE_7__["default"]
+    //catch all anything that is not specified
+    component: _components_NotFound__WEBPACK_IMPORTED_MODULE_7__["default"] //and load this NotFound component
+
   }, {
     path: '/',
     component: _components_Logo__WEBPACK_IMPORTED_MODULE_0__["default"]
@@ -18305,8 +18307,8 @@ var LoadersAndAnimations = function LoadersAndAnimations() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/jeffreyway/code/assets/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/jeffreyway/code/assets/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\API\assets\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\API\assets\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

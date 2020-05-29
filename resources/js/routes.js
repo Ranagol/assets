@@ -17,8 +17,8 @@ export default {
 
     routes: [
         {
-            path: '*',
-            component: NotFound
+            path: '*',//catch all anything that is not specified
+            component: NotFound//and load this NotFound component
         },
 
         {
